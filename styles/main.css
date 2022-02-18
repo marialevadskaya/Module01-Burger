@@ -140,8 +140,8 @@ header {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin-bottom: 100px;
-    padding: 100px 100px 120px;
+    margin-bottom: 64px;
+    padding: 100px 100px;
 }
 .banner-title {
     color: #FFFFFF;
@@ -183,8 +183,8 @@ header {
     text-decoration: none;
     background-color: #FBB731;
     border-radius: 5px;
-    padding: 21px 10px;
-    max-width: 152px;
+    padding: 23px 10px;
+    max-width: 150px;
 }
 .menu {
     margin-bottom: 100px;
@@ -217,9 +217,9 @@ header {
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px 20px;
+    gap: 52px 20px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 68px;
 }
 .menu-grid-cover {
     width: 100%;
@@ -258,9 +258,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 11px 35px;
+    padding: 9px 36px;
     margin: 0 auto;
-    gap: 10px;
+    gap: 5px;
     cursor: pointer;
 }
 .menu-grid-icon {
@@ -282,8 +282,8 @@ header {
     background: #1E2F40;
     color: #FFFFFF;
     padding-top: 117px;
-    padding-bottom: 106px;
-    margin-top: 140px;
+    padding-bottom: 96px;
+    margin-top: 143px;
 }
 .footer-box {
     display: flex;
@@ -302,7 +302,7 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 18px;
-    margin-top: 0;
+    margin-top: 2px;
 }
 .footer-item li {
     margin-bottom: 9px;
@@ -327,10 +327,10 @@ header {
     font-size: 20px;
     font-weight: 900;
     color: #FBB731;
-    margin-top: 0;
+    margin-top: 4px;
 }
 .footer-tel li {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 
