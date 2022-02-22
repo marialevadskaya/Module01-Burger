@@ -424,18 +424,28 @@ a {
     margin-bottom: 30px;
     margin-top: 33px;
 }
-.conent-link,
+.content-link,
 .promo a {
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
     text-decoration: none;
-    padding: 20px 47px;
+    padding: 18px 45px;
+    border: 1px solid #FBB731;
     display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     margin-top: 20px;
+    transition: 0.2s;
+}
+.content-link:hover {
+    background-color: transparent;
+    color: #FBB731;
+}
+.promo a:hover {
+    background-color: transparent;
+    color: #FBB731;
 }
 .visual {
     flex-grow: 1;
