@@ -574,11 +574,6 @@ a {
 
 /* Responsive */
 
-@media (min-width: 766px) {
-    .header-burger {
-        display: none;
-    }
-}
 @media (min-width: 1001px) {
     .footer-list + .futer-list-tel {
         display: none;
@@ -614,6 +609,10 @@ a {
     .menu-grid-price {
         margin-bottom: 24px;
     }
+    .menu-other {
+        overflow: hidden;
+        height: 605px;
+    }
     .menu-other .menu-grid {
         display: flex;
         width: auto;
@@ -634,6 +633,14 @@ a {
     .footer-list + .futer-list-tel {
         display: block;
     }
+    .footer-list + .futer-list-tel {
+            padding-top: 30px;
+        }
+}
+@media (min-width: 766px) {
+    .header-burger {
+        display: none;
+    }
 }
 @media (max-width: 765px) {
     nav {
@@ -644,6 +651,53 @@ a {
     }
     .footer-list + .futer-list-tel {
         padding-top: 30px;
+    }
+}
+@media (max-width: 680px) {
+    .footer-tel {
+        display: block;
+        text-align: right;
+    }
+    .footer-list + .futer-list-tel {
+        display: none;
+    }
+    .futer-list-tel {
+        margin-top: 0px;
+    }
+    .futer-list-tel li {
+        margin-bottom: 12px;
+    }
+    .footer {
+        margin-bottom: 18px;
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+    .footer-box {
+        display: grid;
+        grid-template-areas:
+            'logo tel'
+            'link link'
+            'info info';
+        gap: 0;
+    }
+    .footer-item:nth-child(1) {
+        grid-area: logo;
+    }
+    .footer-item:nth-child(2) {
+        grid-area: link;
+    }
+    .footer-item:nth-child(3) {
+        grid-area: info;
+    }
+    .footer-item:nth-child(4) {
+        grid-area: tel;
+    }
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+    .footer-list {
+        margin-bottom: 40px;
+    
 }
 @media (max-width: 567px) {
     .title {
@@ -664,23 +718,37 @@ a {
     }
     .menu-title {
         font-size: 27px;
+        margin-bottom: 34px;
     }
     .menu-select {
         font-size: 12px;
         flex-basis: 50%;
         background-position: 91% center;
+        margin-bottom: 18px;
     }
     .menu-grid {
         gap: 25px 10px;
     }
     .menu-grid-title {
-        font-size: 20px;
+        font-size: 18px;
     }
     .menu-grid-cover {
-        height: 53vw;
+        height: 57vw;
+        margin-bottom: 10px;
     }
     .menu-grid-cover img {
         height: 100%;
+    }
+    .menu-grid-btn 
+    {
+        padding: 10px 21px 10px 28px;
+    }
+    .menu-other {
+        overflow: hidden;
+        height: 108vw;
+    }
+    .menu-other .menu-grid {
+        padding-bottom: 24vw;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 30vw;
@@ -691,34 +759,13 @@ a {
     .menu-other .menu-grid-cover img {
         height: 100%;
     }
-    .footer-tel {
-        display: block;
-        text-align: right;
-    }
-    .footer-list + .futer-list-tel {
-        display: none;
-    }
-    .footer-box {
-        display: grid;
-        grid-template-areas:
-            'logo tel'
-            'link link'
-            'info info';
-    }
-    .footer-item:nth-child(1) {
-        grid-area: logo;
-    }
-    .footer-item:nth-child(2) {
-        grid-area: link;
-    }
-    .footer-item:nth-child(3) {
-        grid-area: info;
-    }
-    .footer-item:nth-child(4) {
-        grid-area: tel;
-    }
+    
 }
 @media (max-width:414px) {
+    .title {
+        margin-top: 28px;
+        margin-bottom: 11px;
+    }
     .menu-grid-title {
         font-size: 13px;
     }
@@ -740,10 +787,21 @@ a {
     .footer-item h2 {
         font-size: 18px;
     }
+    .menu-other {
+        overflow: hidden;
+        height: 122vw;
+    }
 }
 @media (max-width: 320px) {
+    .bg {
+        margin-bottom: 32px;
+    }
     .banner-box {
         background-position: 25% center;
+    }
+    .menu-other {
+        overflow: hidden;
+        height: 122vw;
     }
 }
 @media (min-width: 320px) {
