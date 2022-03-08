@@ -620,6 +620,9 @@ a {
         overflow: hidden;
         height: 596px;
     }
+    .menu-other .container {
+        padding-right: 0;
+    }
     .menu .menu-other {
         padding-top: 0;
     }
