@@ -609,9 +609,13 @@ a {
         padding: 100px 40px;
         margin-bottom: 23px;
     }
+    .menu {
+        padding-top: 0;
+    }
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 52px 15px;
+        margin-bottom: 50px;
     }
     .menu-grid-price {
         margin-bottom: 16px;
@@ -622,6 +626,9 @@ a {
     }
     .menu-other .container {
         padding-right: 0;
+    }
+    .menu-other .menu-grid-item:nth-child(3) {
+        padding-right: 15px;
     }
     .menu .menu-other {
         padding-top: 0;
@@ -636,6 +643,7 @@ a {
         overflow-y: hidden;
         padding-bottom: 50px;
     }
+    .menu-other .menu-grid,
     .menu-other .menu-grid-item {
         flex: 0 0 281px;
     }
