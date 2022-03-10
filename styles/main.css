@@ -787,6 +787,7 @@ a {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
+        gap: 14px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 30vw;
