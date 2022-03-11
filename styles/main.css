@@ -43,6 +43,7 @@ a {
 }
 .header-nav a {
     font-size: 18px;
+    font-weight: 600;
     color:  #2B3541;
     text-decoration: none;
 }
@@ -581,8 +582,9 @@ a {
 /* Index */
 
 @media (max-width: 1535px) {
-body {
-    overflow-x: hidden;
+    body {
+        overflow-x: hidden;
+    }
 }
 @media (max-width: 1200px) {
     .wrapper {
@@ -1012,12 +1014,12 @@ body {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
-        gap: 4px;
+        gap: 0;
         margin-right: -15px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 33vw;
-        padding-right: 5px;
+        padding-right: 15px;
     }
     .menu-other .menu-grid-cover {
         height: 53vw;
